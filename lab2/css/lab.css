@@ -4,10 +4,11 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 20px #d83a3a;
+    border: dashed 20px #d83a3a;
     background-color: #DDD8C4;
   }
 
 section {
   background-color: aqua;
+
 }
