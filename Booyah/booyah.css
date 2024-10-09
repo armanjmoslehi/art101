@@ -1,0 +1,17 @@
+p {
+    font-family: papyrus;
+}
+
+div#img-box {
+    float : right
+}
+
+#img-box img {
+max-width: 50%
+}
+
+.highlight {
+    font-weight :bold;
+    background-color :yellow;
+
+}
