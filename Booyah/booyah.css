@@ -2,6 +2,10 @@ p {
     font-family: papyrus;
 }
 
+body {
+    background-color :aquamarine;
+}
+
 div#img-box {
     float : right
 }
