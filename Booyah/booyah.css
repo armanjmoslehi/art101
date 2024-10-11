@@ -22,4 +22,5 @@ max-width: 50%
 .smeargle{
     float: middle;
     max-width: 100px;
+    border: 5px black;
 }
