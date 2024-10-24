@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Arrays and Objects
+// Author: Arman Moslehi
+// Date: October 23rd, 2024
 
 // Constants
 
@@ -19,3 +19,25 @@ function main() {
 
 // let's get this party started
 main();
+
+// Define Variables
+
+const myTransport = ["car", 
+  "legs", 
+  "bus", 
+  "scooter"];
+
+var myMainRide = {
+    make: "Chrysler", 
+    model: "PT Cruiser", 
+    color: "silver", 
+    year: 2001, 
+    age: function() {
+      return 2024 - this.year;}
+}
+
+document.writeln("Getting around: " + myTransport + "<br>");
+
+document.writeln("My Main Ride: <pre>", 
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
+
