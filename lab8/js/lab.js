@@ -2,6 +2,14 @@
 // Author: Arman Moslehi
 // Date: October 29th, 2024
 
+function myFunction(param1, param2) {
+
+}
+
+function main() {
+    console.log("Main function started.");
+}
+
 main();
 
 function isEven(x){
@@ -13,7 +21,7 @@ function isEven(x){
    console.log("is 2 even? ", isEven(4));
    
    
-   array = [120, 3, 8, 10000, 44, 90, 54]
+   array = [708, 91, 76, 8913, 4, 16, 54]
    console.log("My array", array);
    
    
