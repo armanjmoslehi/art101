@@ -2,8 +2,6 @@
 // Author: Arman Moslehi
 // Date: November 12th, 2024
 
-main();
-
 function sortingHat(str) {
   len = str.length;
   mod = len % 4;
